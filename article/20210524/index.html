@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="https://bingxio.fun/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>The design of drift programming language</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://bingxio.fun/">欢迎参阅，丙杺的博客！</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">文章</a>
+            </li><li>
+                <a href="/xgsj/" title="">小干时局</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>The design of drift programming language</h1>
+            <div>
+                <time>2021 年 05 月 24 日</time>
+                </div>
+    </header><p>Official homepage: <a href="https://drift-lang.fun/">https://drift-lang.fun/</a></p>
+<p>This article mainly describes some details of the redesign of the drift scripting language, about the design of the compiler, the development model, the syntax design and how to implement them.</p>
+<!-- more -->
+<p>I want to be a simple programming language. Fixed and displayed data types are helpful for coding. Types, keywords, and grammar do not have to be too many. For team development, each member&rsquo;s code can have a fixed format. The code does not need to be complicated, and the syntax is beautiful.
+It is compiled into bytecode and executed. Built on the bottom layer, because it can adapt to most systems and is easy to develop. However, performance cannot be adapted to a compiled language.
+The architecture of the compiler refers to the python and lua programming languages. They are all executed using bytecode. Drift uses the frame structure to interpret functions and classes, as well as the basic stack structure, and uses the call stack to determine the loop execution.
+About performance. I don&rsquo;t plan to do too much performance optimization, because the compiler field has developed many ways to deal with code and optimize performance. Does not implement compile-time evaluation, bytecode optimization, semantic analysis, etc. Handwritten syntax analyzer, using TDOP pratt algorithm. Even drift has no steps to generate an abstract syntax tree structure. It is directly compiled into bytecode through the lexical list (AST is not generated when compiling), that is, the code object. Evaluate directly through the virtual machine again, and it&rsquo;s over.</p>
+<p>The keywords of the compiler are as follows: (1. def 2. ret 3. for 4. aop 5. if 6. ef 7. nf 8. new 9. out 10. go 11. use 12. nil)</p>
+<p>The type system categories are as follows: (1. int 2. float 3. string 4. char 5. bool 6. enumerate 7. interface 8. function 9. class 10. array 11. tuple 12. map 13. module 14. nil)</p>
+<p>The simple grammatical structure indicates:</p>
+<pre><code>E(expression):
+num     = 0 -&gt; 9 | num.num | num.
+ch      = '&lt; ASCII character &gt;'
+str     = &quot;&lt; ANY character &gt;&quot; | &quot;&quot;
+bool    = T | F
+T       = num &gt; 0 | ch | T | bang F | not nil
+F       = num &lt; 0 | F | bang T | bang F | nil
+nil     = #nil
+id      = a -&gt; b | A -&gt; B | _
+or      = E #| E
+and     = E &amp; E
+eq      = E == E | E != E
+com     = E &gt; | &gt;= | &lt; | &lt;= E
+term    = E + | - E
+fac     = E * | / | % E
+new     = #new E {id: E..} | {}
+not     = -E
+bang    = !E
+call    = id(E..)
+dex     = id[E]
+get     = id.E
+group   = (E)
+assign  = id.E = E
+ass     = id += | -= | *= | /= | %= E
+sss     = get += | -= | *= | /= | %= E
+replace = dex += | -= | *= | /= | %= E
+arr     = [E..]
+tup     = (E..)
+map     = {id: E..}
+
+T(type):
+int    = #int
+float  = #float
+char   = #char
+string = #string
+bool   = #bool
+arr    = []T
+tup    = ()T
+map    = {}&lt; T1, T2 &gt;
+fn     = |[]T| -&gt; T
+user   = id
+
+S(statement):
+~     = new interval
+block = same indentation interval
+expr  = E
+var   = #def id T = E
+enum  = #def id ~ block
+fn    = #def (id.. T.. | id1, id2.. T..) id | -&gt; T ~ block
+wh    = #def id ~ block &lt;- S
+fa    = #def id ~ block &lt;- met
+met   = \T..\ id | -&gt; T
+ret   = #ret -&gt; | E
+for   = #for E; E; E ~ block
+aop   = #aop E ~ block
+if    = #if E ~ block |&gt; ef..
+ef    = #ef E ~ block |&gt; nf
+nf    = #nf ~ block
+out   = #out -&gt; | E
+go    = #go -&gt; | E
+use   = #use id
+
+G(generic):
+gfn = #def [G..] =fn
+gfa = #def id[G..] =face
+gca = id[G..] =call
+</code></pre><p>The above is the declaration of drift expressions, statements and generic syntax. This format is casually written by me to facilitate a better understanding, and the BNF expression is not used.</p>
+<p>When choosing a host language, I considered programming languages such as Go, Rust, C++, and Java. Initially, I wanted to use Java to develop the front-end, compile it into bytecode files, and use C++ to develop a virtual machine for evaluation, but it was too troublesome. . Also consider using the C language to develop the front-end and any other language to develop the back-end, so that the runtime using the host language can be realized and the existing standard library can be used, but this lacks simplicity and is still too cumbersome. The executable files generated by Go and Rust are not no std, and they are not streamlined enough. Finally, I decided to use the C language to develop the entire front-end and back-end. The basic standard library is developed for use, and the others are linked by the dynamic library.</p>
+<p>Developed using standard C99 version, the generated compiler is only about 30kb, and C99 can be compiled with GCC that comes with any community version of linux, which is very convenient.</p>
+<p>Very basic programming paradigm, look at this example:</p>
+<pre><code>#drift
+def About[T]
+    \\ initialize -&gt; {}&lt;string, any&gt;
+    \T\ say -&gt; T
+
+def Me
+    def name string = &quot;bingxio&quot;
+    def age int = 20
+    def location string = &quot;China, CQ&quot;
+    
+    def () initialize -&gt; {}&lt;string, any&gt;
+        def m {}&lt;string, any&gt; = {
+            &quot;name&quot;     : .name,
+            &quot;age&quot;      : .age,
+            &quot;location&quot; : .location
+        }
+        ret m
+        
+    def [T](w T) say -&gt; T
+        print(.name, &quot;to say: &quot;, w)
+        w = &quot;use drift script.&quot;
+        ret w
+        
+def me About = new Me{}
+
+print(
+    me.initialize(),
+    me.say[string](&quot;Hi! Nice to meet you, &quot;))
+</code></pre><p>Lines 2 to 4 define the About interface. It has a parameter whose generic type is T and contains two methods. The initialize method returns the map type, and the say method accepts the generic type and returns the generic type T.
+Line 6 begins to define a class with three default parameters and implements methods consistent with the About interface.
+Line 24 creates a Me class and assigns it to the About interface. There is no inheritance relationship shown here, the compiler will judge at runtime whether Me implements the method list, the parameters are the same, the name is the same, the return type is the same, etc. This is called the duck type.
+Line 26 calls the standard function print to call the interface. Note that the type of me is the About interface.
+The compiler will find out who is the implemented class of me, that is, whether the class is assigned to me, and then call the set class method.</p>
+<p>The final output is as follows:</p>
+<pre><code>&gt; {name: &quot;bingxio&quot;, age: 20, location: &quot;China, CQ&quot;}
+&gt; bingxio to say: Hi Nice to meet you, use drift script.
+</code></pre><p>This program appears on my Github homepage: <a href="https://github.com/bingxio/">https://github.com/bingxio/</a></p>
+<p>The design of Drift GC garbage collector. I learned compilation principles and computer knowledge completely by myself. The GC garbage collector in the compiler only understands some basic concepts, such as reachability and unreachability. What I want to achieve in the end is to automatically release memory and fully realize the function of automatic recycling. . So, I want to implement a GC based on my own ideas and use it for Drift.</p>
+<p>I started to think.. We parsed the source code into a collection of lexical lists in the lexical stage. At this time, the source files can be recycled. Then give the lexical to the compiler and analyze it into a code object. After completion, the lexical set at this time can be recycled.</p>
+<p><img src="/static/20210524/GC.svg" alt=""></p>
+<p>My question is when does GC happen and after the function is executed? After the module is executed? Or is it reference counting at compile time? I think GC should be started at any specific time in the program, such as function loading and loading, loop start and end, module call and so on. Reference counting or dictionary loading method? Later there will be an article to study my GC method.</p>
+<p>Currently, Drift&rsquo;s memory management only releases the basic stack, and nothing else is processed.</p>
+<pre><code>#my love
+def () heart
+    def x float = 0.
+    def y float = 0.
+
+    def s string = &quot;&quot;
+    def i float = 1.5
+
+    aop i &gt; -1.5
+        s = &quot;&quot;
+        x = -1.5
+        aop x &lt; 1.5
+            y = x * x + i * i - 1
+            if (y * y * y -
+                x * x * i * i * i) &lt; 0.0
+                s += &quot;*&quot;
+            nf
+                s += &quot; &quot;
+            x += 0.05
+        print(s)
+        i -= 0.1
+heart()
+</code></pre><p>This program appears on the official homepage of the drift language, and its function is to output a heart-shaped character.
+Copy it down and try to use drift&rsquo;s compiler to output love.</p>
+<p>About drift contributors and maintenance plan. Quoting a readme from the drift project:</p>
+<p>&ldquo;A minimalist and mundane scripting language.</p>
+<p>I like all simple things, simple and beautiful, simple and strong. I know that all development in the world comes from simplicity. Every line of code, character, format, indentation, etc. is a beautiful product.&rdquo;</p>
+<p>Therefore, I list a few criteria:</p>
+<ul>
+<li>Use art and beautiful code</li>
+<li>Use the simplest implementation</li>
+<li>Performance is not too important</li>
+<li>Don&rsquo;t write too complicated code</li>
+<li>No fancy features</li>
+</ul>
+<p>You can submit a pull request in the Github project.</p>
+<p>In future plans, Drift is mainly used for back-end API development, database access, and simple CRUD operations. This is the first step. Slowly improve and refine the compiler.</p>
+</article>
+
+        </main><footer id="footer">
+    请随意，转载。
+</footer>
+</body>
+</html>
