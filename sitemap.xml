@@ -3,47 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bingxio.fun/</loc>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2022-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
     <lastmod>2021-10-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bingxio.fun/posts/</loc>
+    <loc>https://example.com/posts/</loc>
     <lastmod>2021-10-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bingxio.fun/article/20211023/</loc>
+    <loc>https://example.com/article/20211023/</loc>
     <lastmod>2021-10-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bingxio.fun/article/20210723/</loc>
+    <loc>https://example.com/article/20210723/</loc>
     <lastmod>2021-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bingxio.fun/article/20210719/</loc>
-    <lastmod>2021-07-19T00:00:00+08:00</lastmod>
+    <loc>https://example.com/article/20210719/</loc>
+    <lastmod>2021-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bingxio.fun/article/20210524/</loc>
-    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+    <loc>https://example.com/categories/</loc>
   </url>
   
   <url>
-    <loc>https://bingxio.fun/xgsj/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bingxio.fun/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bingxio.fun/tags/</loc>
+    <loc>https://example.com/tags/</loc>
   </url>
   
 </urlset>

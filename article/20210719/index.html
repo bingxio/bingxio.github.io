@@ -2,21 +2,22 @@
 <html><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bingxio 丙杺的博客">
     
-    <link rel="shortcut icon" href="https://bingxio.fun/favicon.ico">
+    <link rel="shortcut icon" href="https://example.com/favicon.ico">
     
     <link rel="stylesheet" href="/css/style.min.css">
 
-    <title>Top-down Operator Precedence Parser</title>
+    <title>简述 TDOP 语法分析算法</title>
 </head>
 <body><header id="banner">
-    <h2><a href="https://bingxio.fun/">欢迎参阅，丙杺的博客！</a></h2>
+    <h2><a href="https://example.com">你来便是，人间好时节！</a></h2>
     <nav>
         <ul>
             <li>
-                <a href="/" title="posts">文章</a>
+                <a href="/" title="">文章</a>
             </li><li>
-                <a href="/xgsj/" title="">小干时局</a>
+                <a href="/about/" title="">数术教学</a>
             </li>
         </ul>
     </nav>
@@ -24,37 +25,28 @@
 <main id="content">
 <article>
     <header id="post-header">
-        <h1>Top-down Operator Precedence Parser</h1>
+        <h1>简述 TDOP 语法分析算法</h1>
             <div>
                 <time>2021 年 07 月 19 日</time>
                 </div>
     </header><h3 id="简介">简介</h3>
 <p>1973 年，波士顿 Vaughan Pratt 在编程原则座谈会（Principles of Programming Languages Symposium）第一期年刊上发表自顶向下运算符优先（Top Down Operator Precedence）一文。在论文中 Pratt 描述了一种结合递归向下（Recursive Descent）方法以及运算符优先的解析技术。</p>
 <p>它非常易用，同时看起来很像递归下降，但是却可用更少的代码实现以及高效的性能，技术易懂，方便实现，性能突出，动态灵活，支持语言级别的扩展。</p>
-<!-- more -->
 <h3 id="算法">算法</h3>
 <p>在经过前个步骤的词法分析后，通常把源代码解析成词法（Token）列表。解析这个列表，分析成对应的抽象语法树（AST），或者其他数据结构。</p>
-<ol>
-<li>构建词法符号的优先级</li>
-<li>构建当前词法和下一个词法的获取方法</li>
-<li>添加前缀、中缀的方法实现的词典</li>
-<li>主体算法</li>
-<li>各个表达式的对应处理方法</li>
-</ol>
-<p>表达式分为操作数（Operand）和操作符（Operator）两部分，最开始进行分析前缀操作，并且传入最低级别符号（LOWEST）进去。
-<strong>首先获取前缀方法，并执行。接下来如果下一个词法的符号优先级大于当前，则一直循环处理。替换前缀为当前表达式，前缀只会处理一次，后面循环处理中缀。</strong></p>
-<p><img src="/static/20210719/pratt.png" alt=""></p>
-<p><strong>算法核心在于次序、嵌套循环、各自对应方法进行分析处理，最终每个注册的前缀和中缀方法返回各自的表达式。也可进行后缀表达式的处理。</strong></p>
+<p>构建词法符号的优先级
+构建当前词法和下一个词法的获取方法
+添加前缀、中缀的方法实现的词典
+主体算法
+各个表达式的对应处理方法
+表达式分为操作数（Operand）和操作符（Operator）两部分，最开始进行分析前缀操作，并且传入最低级别符号（LOWEST）进去。<strong>首先获取前缀方法，并执行。接下来如果下一个词法的符号优先级大于当前，则一直循环处理。替换前缀为当前表达式，前缀只会处理一次，后面循环处理中缀。</strong></p>
+<p>算法核心在于次序、嵌套循环、各自对应方法进行分析处理，最终每个注册的前缀和中缀方法返回各自的表达式。也可进行后缀表达式的处理。</p>
 <p>注册的字典类型如下：</p>
-<p>前缀: Map{Int, Func() -&gt; Expr}
-中缀:  Map{Int, Func(Expr) -&gt; Expr}</p>
-<p>前缀首先开始处理，如果下一个词法优先级大于前缀，则接入前缀表达式进行后面的处理，所以中缀方法需要接受一个表达式参数。</p>
+<pre><code>前缀: Map{Int, Func() -&gt; Expr} 中缀: Map{Int, Func(Expr) -&gt; Expr}
+</code></pre><p>前缀首先开始处理，如果下一个词法优先级大于前缀，则接入前缀表达式进行后面的处理，所以中缀方法需要接受一个表达式参数。</p>
 <h3 id="实现">实现</h3>
-<p>使用 Go 语言进行简单的代码实现，可以解析加减乘除和括号的优先级。
-构建三个表达式，中缀，前缀，和数字字面量：
-<img src="/static/20210719/215413.png" alt=""></p>
-<p>解析器结构，和两个前缀中缀处理字典的定义，主方法
-<img src="/static/20210719/215833.png" alt=""></p>
+<p>使用 Go 语言进行简单的代码实现，可以解析加减乘除和括号的优先级。 构建三个表达式，中缀，前缀，和数字字面量：</p>
+<p>解析器结构，和两个前缀中缀处理字典的定义，主方法</p>
 <p>其中 LOWEST 最低优先级设为 0，加减法为 1，乘除法为 2，括号为 3。主体方法如下：</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="p">(</span><span class="nx">p</span> <span class="o">*</span><span class="nx">parser</span><span class="p">)</span> <span class="nf">setPrecedence</span><span class="p">(</span><span class="nx">precedence</span> <span class="kt">int</span><span class="p">)</span> <span class="nx">expr</span> <span class="p">{</span>
 	<span class="nx">prefix</span> <span class="o">:=</span> <span class="nx">p</span><span class="p">.</span><span class="nx">prefixFn</span><span class="p">[</span><span class="nx">p</span><span class="p">.</span><span class="nx">pre</span><span class="p">.</span><span class="nx">kind</span><span class="p">]</span>
@@ -136,8 +128,7 @@
 <li>解析接下来比操作数级别更高的操作符</li>
 <li>操作符 * 号被抓取，乘法比加法更先一步解析</li>
 </ol>
-<p>其中，前缀取负和取非方法。
-例如: -3 * 5</p>
+<p>其中，前缀取负和取非方法。 例如: -3 * 5</p>
 <ol>
 <li>前缀开始，调用注册的 - 号前缀方法</li>
 <li>刷新词法（3, *），再次调用解析（为了获取取负的是什么表达式），优先级为前缀操作符</li>
@@ -147,8 +138,7 @@
 <li>获得解析：5, mul</li>
 <li>词法结束符 Eof 不存在优先级，即解析完毕</li>
 </ol>
-<p>括号，跳过左右括号，从最低级解析其中的表达式。
-优先级定义如下：</p>
+<p>括号，跳过左右括号，从最低级解析其中的表达式。 优先级定义如下：</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">const</span> <span class="p">(</span>
 	<span class="nx">lowest</span>  <span class="p">=</span> <span class="kc">iota</span>
 	<span class="nx">assign</span>  <span class="c1">// =
@@ -187,16 +177,14 @@
 <span class="nx">p</span><span class="p">.</span><span class="nx">rule</span><span class="p">[</span><span class="nx">Lb</span><span class="p">]</span> <span class="p">=</span> <span class="nx">rule</span><span class="p">{</span><span class="kc">nil</span><span class="p">,</span> <span class="nx">p</span><span class="p">.</span><span class="nx">index</span><span class="p">,</span> <span class="nx">call</span><span class="p">}</span>
 
 <span class="nx">p</span><span class="p">.</span><span class="nx">rule</span><span class="p">[</span><span class="nx">Assign</span><span class="p">]</span> <span class="p">=</span> <span class="nx">rule</span><span class="p">{</span><span class="nx">p</span><span class="p">.</span><span class="nx">assign</span><span class="p">,</span> <span class="nx">p</span><span class="p">.</span><span class="nx">assign</span><span class="p">,</span> <span class="nx">assign</span><span class="p">}</span>
-</code></pre></div><p>对于赋值和取下标的实现：
-通常，编程语言使用 [] 方括号取下标，使用 = 符号赋值，其规则如下</p>
+</code></pre></div><p>对于赋值和取下标的实现： 通常，编程语言使用 [] 方括号取下标，使用 = 符号赋值，其规则如下</p>
 <ol>
 <li>方括号左边是任意表达式，最后调用下标</li>
 <li>等号左边必须是一个标识符</li>
 <li>如果是前缀，则是字面量</li>
 </ol>
 <p>根据规则，更改 get 调用和标识符的实现方法。当主体方法执行完毕后。判断未来的词法是否是等号，如果是则进行赋值操作，写入对应的字节码。</p>
-<p>方括号则是和括号运算对应的优先级和中缀运算。
-根据两个规则实现赋值，如果再出现等号，则直接报错。</p>
+<p>方括号则是和括号运算对应的优先级和中缀运算。 根据两个规则实现赋值，如果再出现等号，则直接报错。</p>
 <p>实现如下：</p>
 <div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="p">(</span><span class="nx">p</span> <span class="o">*</span><span class="nx">parser</span><span class="p">)</span> <span class="nf">literal</span><span class="p">()</span> <span class="p">{</span>
 	<span class="nx">op</span> <span class="o">:=</span> <span class="nx">p</span><span class="p">.</span><span class="nx">pre</span>

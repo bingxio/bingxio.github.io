@@ -1,111 +1,318 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 欢迎参阅，丙杺的博客！</title>
-    <link>https://bingxio.fun/posts/</link>
-    <description>Recent content in Posts on 欢迎参阅，丙杺的博客！</description>
+    <title>Posts on 你来便是，人间好时节！</title>
+    <link>https://example.com/posts/</link>
+    <description>Recent content in Posts on 你来便是，人间好时节！</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sat, 23 Oct 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bingxio.fun/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     
     
     
     <item>
       <title>辛丑年十月，测例</title>
-      <link>https://bingxio.fun/article/20211023/</link>
+      <link>https://example.com/article/20211023/</link>
       <pubDate>Sat, 23 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bingxio.fun/article/20211023/</guid>
-      <description>今后，我把测的例子，更新在博客里。
-正时起课 上午，和两个同学讨论易理。灵感一来，随即起一个大六壬正时课。
-以昨晚学习赵林声老师的，十二宫位对应座位，来试手。
-以我的本位起子，从左方开始顺布十二地支
-子乘戌，临白虎，加戊。戊、戌一起克阴神子水，指两位同学
-寅乘子，临青龙，加庚。青龙本位，子水生两个寅木，再次应征两位同学
-庚金，代表我，高大清瘦。为寅木的官鬼，壬干的印，都指学习
-寅午戌，桃花在卯，东南方为桃花位
-同学随机翻页位数为 6，以巳火测
-巳乘卯，有桃花，上临朱雀，加癸，断其寝室东南方位挂有一幅画，卯主画，朱雀为文化，癸水为黑白色， 卯下巳火，巳临贵人，画上是比较强大的有权利的人，乙木，主正义，空亡，那人没有起到作用
-初传戌发用，与卯相合，火局代表上火，不太严重
-下课后，被应证，东南方位，挂着一副黑白画，中间为一个蒙面黑客
-射覆课一 贴吧测射覆，已经公布结果，我以贴主的数字起卦。得：火泽睽 变 火水未济
-发给我的同学，他断为打火机，我说我的易理
-体是离火。为装饰，用为兑，有缺口，不是一坨。兑变坎水，互卦，用卦，都为阴阳阴阳爻的交互变换， 其物体必有软的有硬的，水火相克，互相制约，制约在哪，离卦是午火，头，用卦坎水指黑色
-为一个发夹
-测手机多久能换掉 六爻，手动摇卦。得静卦：雷水解
-以财爻为用，两个财爻，一个财临世。乘辰土，月破，且是静卦，近期换不了
-另一个财爻为戌，月建被空，无力，辰是天干壬水的墓地，自己入墓，被困
-应期在，戌被填实的辰月，补破的巳月
-射覆课二 教会起课了，让学金口的同学起一课，来玩一把射覆
-用爻亥水，坐下辰土水库，辛金为小型金属。壬水临官在亥，日干禄神，有用
-丙、甲、互相压制辛金，干为外部，天后为后天之物，在人体
-丙辛相合，辰为勾陈，互相推拉，结果为指甲刀
-金口测病 相同时间，还要再来测一课，我作罢，室友问我的感冒何时好
-四阳课，事情才发生。玄武为玄幻之事，应在头晕，子午对冲，有炎症
-天干壬水旺在子，事情已经到了极点，之后就会往下走
-且人元戊土，克子水，阳对阳，很快缓解
-问题出现在极阳课，干神将方全部纯阳，以克制子水、午火为应期
-在 23 甲辰日，子辰合，甲木参与进来，生丙火克制庚金</description>
+      <guid>https://example.com/article/20211023/</guid>
+      <description>&lt;p&gt;随意记录，几个例子。&lt;/p&gt;
+&lt;h4 id=&#34;正时起课&#34;&gt;正时起课&lt;/h4&gt;
+&lt;p&gt;上午，和两个同学讨论易理。灵感一来，随即起一个大六壬正时课。&lt;/p&gt;
+&lt;p&gt;以昨晚学习赵林声老师的，十二宫位对应座位，来试手。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;辛丑年 戊戌月 壬寅日 丙午时 （旬空：辰、巳）辰将
+
+   阴 后 贵 蛇
+   卯 辰 巳 午
+玄 寅       未 朱
+常 丑       申 六
+   子 亥 戌 酉
+   白 空 青 勾
+
+   戌 子 未 酉
+   子 寅 酉 壬
+
+   戌 初
+   申
+   午
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;以我的本位起子，从左方开始顺布十二地支&lt;/p&gt;
+&lt;p&gt;子乘戌，临白虎，加戊。戊、戌一起克阴神子水，指两位同学&lt;/p&gt;
+&lt;p&gt;寅乘子，临青龙，加庚。青龙本位，子水生两个寅木，再次应征两位同学&lt;/p&gt;
+&lt;p&gt;庚金，代表我，高大清瘦。为寅木的官鬼，壬干的印，都指学习&lt;/p&gt;
+&lt;p&gt;寅午戌，桃花在卯，东南方为桃花位&lt;/p&gt;
+&lt;p&gt;同学随机翻页位数为 6，以巳火测&lt;/p&gt;
+&lt;p&gt;巳乘卯，有桃花，上临朱雀，加癸，断其寝室东南方位挂有一幅画，卯主画，朱雀为文化，癸水为黑白色， 卯下巳火，巳临贵人，画上是比较强大的有权利的人，乙木，主正义，空亡，那人没有起到作用&lt;/p&gt;
+&lt;p&gt;初传戌发用，与卯相合，火局代表上火，不太严重&lt;/p&gt;
+&lt;p&gt;下课后，被应证，东南方位，挂着一副黑白画，中间为一个蒙面黑客&lt;/p&gt;
+&lt;h4 id=&#34;射覆课一&#34;&gt;射覆课一&lt;/h4&gt;
+&lt;p&gt;贴吧测射覆，已经公布结果，我以贴主的数字起卦。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;得：火泽睽 变 火水未济
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;发给我的同学，他断为打火机，我说我的易理&lt;/p&gt;
+&lt;p&gt;体是离火。为装饰，用为兑，有缺口，不是一坨。兑变坎水，互卦，用卦，都为阴阳阴阳爻的交互变换， 其物体必有软的有硬的，水火相克，互相制约，制约在哪，离卦是午火，头，用卦坎水指黑色&lt;/p&gt;
+&lt;p&gt;为一个发夹&lt;/p&gt;
+&lt;h4 id=&#34;测手机多久能换掉&#34;&gt;测手机多久能换掉&lt;/h4&gt;
+&lt;p&gt;六爻，手动摇卦。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;得静卦：雷水解
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;以财爻为用，两个财爻，一个财临世。乘辰土，月破，且是静卦，近期换不了&lt;/p&gt;
+&lt;p&gt;另一个财爻为戌，月建被空，无力，辰是天干壬水的墓地，自己入墓，被困&lt;/p&gt;
+&lt;p&gt;应期在，戌被填实的辰月，补破的巳月&lt;/p&gt;
+&lt;h4 id=&#34;射覆课二&#34;&gt;射覆课二&lt;/h4&gt;
+&lt;p&gt;教会起课了，让学金口的同学起一课，来玩一把射覆&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;辛丑年 戊戌月 壬寅日 丙午时 （旬空：辰、巳）辰将
+
+  丙
+辛亥 用爻
+甲辰
+  午
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;用爻亥水，坐下辰土水库，辛金为小型金属。壬水临官在亥，日干禄神，有用&lt;/p&gt;
+&lt;p&gt;丙、甲、互相压制辛金，干为外部，天后为后天之物，在人体&lt;/p&gt;
+&lt;p&gt;丙辛相合，辰为勾陈，互相推拉，结果为指甲刀&lt;/p&gt;
+&lt;h4 id=&#34;金口测病&#34;&gt;金口测病&lt;/h4&gt;
+&lt;p&gt;相同时间，还要再来测一课，我作罢，室友问我的感冒何时好&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;辛丑年 戊戌月 壬寅日 丙午时 （旬空：辰、巳）辰将
+
+  戊
+庚子 用爻
+丙午
+  申
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;四阳课，事情才发生。玄武为玄幻之事，应在头晕，子午对冲，有炎症&lt;/p&gt;
+&lt;p&gt;天干壬水旺在子，事情已经到了极点，之后就会往下走&lt;/p&gt;
+&lt;p&gt;且人元戊土，克子水，阳对阳，很快缓解&lt;/p&gt;
+&lt;p&gt;问题出现在极阳课，干神将方全部纯阳，以克制子水、午火为应期&lt;/p&gt;
+&lt;p&gt;在 23 甲辰日，子辰合，甲木参与进来，生丙火克制庚金&lt;/p&gt;
+</description>
     </item>
     
     
     
     <item>
       <title>非得山穷水尽，才能柳暗花明</title>
-      <link>https://bingxio.fun/article/20210723/</link>
+      <link>https://example.com/article/20210723/</link>
       <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bingxio.fun/article/20210723/</guid>
-      <description>永祀 五月底，我的至亲噶爷因病永远的离开了我。此后心情久久不能平复，时常想念和怀念他，久久意难平。
-我自幼无父，当初都准备打掉我，是噶爷给留了下来。自小和噶爷婆婆一起生活，他俩是我的至亲，比任何人都亲。在农村生活了十三年，生我养我的地方，提到此处，不知怎样描述我的家乡，只记得那个熟悉的地名。我的噶爷是一个活泼潇洒的性格，善良而又慈祥，不知为何我走后的几年，就得了癌症，手术后坚持了三年。那时十三岁，早上，和婆婆赶路去重庆，走了很大一截后，我往后看，噶爷竟然赶来了那个路口，目送我们离开。那个场景我时常不敢想起，因为是离开家乡奔赴另一个地方，此时才知当时情。从小在农村山间田野玩耍，很开心，没有烦恼，那才是真正的生活。晚间婆婆叫我回来吃饭，我就等噶爷从哪个路口回来，因为平时干了一些活，有时给他去打酒，买一包零食，平时，有人家过事，婆婆噶爷都会给我带点零食，吃的东西。在每个上街的日子，等待婆婆回来，又给我带了什么好吃的，买一条鱼、一块肉、一个西瓜，我婆婆弄的鱼香鱼汤，酸萝卜土豆片，还有很多好吃的手艺。噶爷有时又比较幽默，在夏夜吃完饭后，在坝子里漆黑的坐着，放着那些流行的歌曲，那时真的是漫天星辰，我时常在想山的那边是什么。在山里砍柴，我每次就去背一根小的每逢过年，置办物品，噶爷都会在每次过年给我买回来一些烟花爆竹，还说这东西一点燃就是好多钱，哈哈。噶爷喜欢热闹，记得在生病的前一年，我们都回老家过年，噶爷忙得不亦乐乎，点火炮，酒后一起聊天。记得噶爷的地位很大，村里的事情，哪家闹矛盾，都会请他去调解，朋友也多，都很尊敬。虽然没读过好多的书，但有时又觉得是那么的有文识，经常提起我要有文化，这样的生世，要有志气。
-文至此处，内心难以平复。
-我自小爱玩，从记事起，噶爷是在几个村子里收废品的，中午或者下午回来后，我就帮他一起拆，全是电器废品，这样我引发了对电路的兴趣，在家里用小电池安线路，安喇叭，研究手机，从小就对这些东西感兴趣，也是噶爷带领进来的。
-那年查出癌症后，噶爷婆婆就在重庆生活，只享到了三年的时光。遗憾之事有几，没有多守护噶爷一晚，特别是在病重后。没有应邀去吃饭，那次以后就没机会，已经很严重，他为了回老家去参加祖祖葬礼，回来后整个人就不行了。每次看望，都问我吃饭没有，最后只问了我两个事，什么时候毕业，和要有志气。之后就是话也说不出来。半个月的时间，那晚走得很安详，刚巧一个弟弟两个妹妹都来，很热闹，或许是他自己决定现在走吧。紧着是回老家，三天三夜的葬礼，那是我人生首次至亲离开，两年没有回来的家乡，变化非常的大，很多人都不认识我了，其中非常多的细节和事情，我不想公开写在这里，有些事情只能心里懂得。
-当看到墓碑上永祀二字时，这世界上是有永远的。
-爱情 到此我不知道爱是什么，是那我不爱你，你不爱我，就不存在爱这个东西，爱最自私。我有幸在高中经历过一段真实的暗恋，最后不了了事，因为我个人性格的原因，被父母所产生的伤害，难以描述，难以理解。暂不去想那绕脑的父母事情，只觉家庭父母对我的性格产生了非常大的影响，因为那时我自卑，不敢去发生一段真实的感情，体验到了真正爱一个人的感觉就行罢，那是年少时的美好，偶遇一次就是一天的好心情。
-距离上次写长文，已经是几个月之前，那时还在糊里糊涂的处理公司里的繁杂事务。现在当你看到这篇文章时，我已经无事一身轻了，公司注销，股东跑路，女朋友撒手，我还是我。该怎么写这个标题呢，我的头脑里出现无数个关键字，不是不说，真的很累，去年很累的哇。好，想到甚么就写什么。
-始于癸未甲寅辰，何意桂秋一阴发; 长随业力心自转，怎敢寻它来与去; 万般美好似星辰，世间温柔定初心; 念于缘分依然故，忽现晚夕映金山;
-我也没有给她解释过其中的韵意，那次发去就直接删好友。
-开始在癸未月的甲寅日，也就是 2020 年 7 月 10 日，但怎会在意秋天的一阴开始（阴是指秋天节气后，阴气初发也就是刚进入甲申月，就闹出分开），怎么敢去找它的渊源，都是各自业力的缘故了，万般的美好在我脑中浮现，世间的温柔是我的初心，傍晚，我俩聊着我们之间的往事，忽然看见夕阳迎着金色的山脉。完，最后是我意淫的，不是真的。
-万字长文。难以表心</description>
+      <guid>https://example.com/article/20210723/</guid>
+      <description>&lt;h3 id=&#34;永祀&#34;&gt;永祀&lt;/h3&gt;
+&lt;p&gt;五月底，我的至亲噶爷因病永远的离开了我。此后心情久久不能平复，时常想念和怀念他，久久意难平。&lt;/p&gt;
+&lt;p&gt;我自幼无父，当初都准备打掉我，是噶爷给留了下来。自小和噶爷婆婆一起生活，他俩是我的至亲，比任何人都亲。在农村生活了十三年，生我养我的地方，提到此处，不知怎样描述我的家乡，只记得那个熟悉的地名。我的噶爷是一个活泼潇洒的性格，善良而又慈祥，不知为何我走后的几年，就得了癌症，手术后坚持了三年。那时十三岁，早上，和婆婆赶路去重庆，走了很大一截后，我往后看，噶爷竟然赶来了那个路口，目送我们离开。那个场景我时常不敢想起，因为是离开家乡奔赴另一个地方，此时才知当时情。从小在农村山间田野玩耍，很开心，没有烦恼，那才是真正的生活。晚间婆婆叫我回来吃饭，我就等噶爷从哪个路口回来，因为平时干了一些活，有时给他去打酒，买一包零食，平时，有人家过事，婆婆噶爷都会给我带点零食，吃的东西。在每个上街的日子，等待婆婆回来，又给我带了什么好吃的，买一条鱼、一块肉、一个西瓜，我婆婆弄的鱼香鱼汤，酸萝卜土豆片，还有很多好吃的手艺。噶爷有时又比较幽默，在夏夜吃完饭后，在坝子里漆黑的坐着，放着那些流行的歌曲，那时真的是漫天星辰，我时常在想山的那边是什么。在山里砍柴，我每次就去背一根小的每逢过年，置办物品，噶爷都会在每次过年给我买回来一些烟花爆竹，还说这东西一点燃就是好多钱，哈哈。噶爷喜欢热闹，记得在生病的前一年，我们都回老家过年，噶爷忙得不亦乐乎，点火炮，酒后一起聊天。记得噶爷的地位很大，村里的事情，哪家闹矛盾，都会请他去调解，朋友也多，都很尊敬。虽然没读过好多的书，但有时又觉得是那么的有文识，经常提起我要有文化，这样的生世，要有志气。&lt;/p&gt;
+&lt;p&gt;文至此处，内心难以平复。&lt;/p&gt;
+&lt;p&gt;我自小爱玩，从记事起，噶爷是在几个村子里收废品的，中午或者下午回来后，我就帮他一起拆，全是电器废品，这样我引发了对电路的兴趣，在家里用小电池安线路，安喇叭，研究手机，从小就对这些东西感兴趣，也是噶爷带领进来的。&lt;/p&gt;
+&lt;p&gt;那年查出癌症后，噶爷婆婆就在重庆生活，只享到了三年的时光。遗憾之事有几，没有多守护噶爷一晚，特别是在病重后。没有应邀去吃饭，那次以后就没机会，已经很严重，他为了回老家去参加祖祖葬礼，回来后整个人就不行了。每次看望，都问我吃饭没有，最后只问了我两个事，什么时候毕业，和要有志气。之后就是话也说不出来。半个月的时间，那晚走得很安详，刚巧一个弟弟两个妹妹都来，很热闹，或许是他自己决定现在走吧。紧着是回老家，三天三夜的葬礼，那是我人生首次至亲离开，两年没有回来的家乡，变化非常的大，很多人都不认识我了，其中非常多的细节和事情，我不想公开写在这里，有些事情只能心里懂得。&lt;/p&gt;
+&lt;p&gt;当看到墓碑上永祀二字时，这世界上是有永远的。&lt;/p&gt;
+&lt;h3 id=&#34;爱情&#34;&gt;爱情&lt;/h3&gt;
+&lt;p&gt;到此我不知道爱是什么，是那我不爱你，你不爱我，就不存在爱这个东西，爱最自私。我有幸在高中经历过一段真实的暗恋，最后不了了事，因为我个人性格的原因，被父母所产生的伤害，难以描述，难以理解。暂不去想那绕脑的父母事情，只觉家庭父母对我的性格产生了非常大的影响，因为那时我自卑，不敢去发生一段真实的感情，体验到了真正爱一个人的感觉就行罢，那是年少时的美好，偶遇一次就是一天的好心情。&lt;/p&gt;
+&lt;p&gt;距离上次写长文，已经是几个月之前，那时还在糊里糊涂的处理公司里的繁杂事务。现在当你看到这篇文章时，我已经无事一身轻了，公司注销，股东跑路，女朋友撒手，我还是我。该怎么写这个标题呢，我的头脑里出现无数个关键字，不是不说，真的很累，去年很累的哇。好，想到甚么就写什么。&lt;/p&gt;
+&lt;p&gt;始于癸未甲寅辰，何意桂秋一阴发; 长随业力心自转，怎敢寻它来与去; 万般美好似星辰，世间温柔定初心; 念于缘分依然故，忽现晚夕映金山;&lt;/p&gt;
+&lt;p&gt;我也没有给她解释过其中的韵意，那次发去就直接删好友。&lt;/p&gt;
+&lt;p&gt;开始在癸未月的甲寅日，也就是 2020 年 7 月 10 日，但怎会在意秋天的一阴开始（阴是指秋天节气后，阴气初发也就是刚进入甲申月，就闹出分开），怎么敢去找它的渊源，都是各自业力的缘故了，万般的美好在我脑中浮现，世间的温柔是我的初心，傍晚，我俩聊着我们之间的往事，忽然看见夕阳迎着金色的山脉。完，最后是我意淫的，不是真的。&lt;/p&gt;
+&lt;p&gt;万字长文。难以表心&lt;/p&gt;
+</description>
     </item>
     
     
     
     <item>
-      <title>Top-down Operator Precedence Parser</title>
-      <link>https://bingxio.fun/article/20210719/</link>
-      <pubDate>Mon, 19 Jul 2021 00:00:00 +0800</pubDate>
+      <title>简述 TDOP 语法分析算法</title>
+      <link>https://example.com/article/20210719/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bingxio.fun/article/20210719/</guid>
-      <description>简介 1973 年，波士顿 Vaughan Pratt 在编程原则座谈会（Principles of Programming Languages Symposium）第一期年刊上发表自顶向下运算符优先（Top Down Operator Precedence）一文。在论文中 Pratt 描述了一种结合递归向下（Recursive Descent）方法以及运算符优先的解析技术。
-它非常易用，同时看起来很像递归下降，但是却可用更少的代码实现以及高效的性能，技术易懂，方便实现，性能突出，动态灵活，支持语言级别的扩展。
-算法 在经过前个步骤的词法分析后，通常把源代码解析成词法（Token）列表。解析这个列表，分析成对应的抽象语法树（AST），或者其他数据结构。
- 构建词法符号的优先级 构建当前词法和下一个词法的获取方法 添加前缀、中缀的方法实现的词典 主体算法 各个表达式的对应处理方法  表达式分为操作数（Operand）和操作符（Operator）两部分，最开始进行分析前缀操作，并且传入最低级别符号（LOWEST）进去。 首先获取前缀方法，并执行。接下来如果下一个词法的符号优先级大于当前，则一直循环处理。替换前缀为当前表达式，前缀只会处理一次，后面循环处理中缀。
-算法核心在于次序、嵌套循环、各自对应方法进行分析处理，最终每个注册的前缀和中缀方法返回各自的表达式。也可进行后缀表达式的处理。
-注册的字典类型如下：
-前缀: Map{Int, Func() -&amp;gt; Expr} 中缀: Map{Int, Func(Expr) -&amp;gt; Expr}
-前缀首先开始处理，如果下一个词法优先级大于前缀，则接入前缀表达式进行后面的处理，所以中缀方法需要接受一个表达式参数。
-实现 使用 Go 语言进行简单的代码实现，可以解析加减乘除和括号的优先级。 构建三个表达式，中缀，前缀，和数字字面量： 解析器结构，和两个前缀中缀处理字典的定义，主方法 其中 LOWEST 最低优先级设为 0，加减法为 1，乘除法为 2，括号为 3。主体方法如下：
-func (p *parser) setPrecedence(precedence int) expr { prefix := p.prefixFn[p.pre.kind] if prefix == nil { panic(&amp;#34;no prefix parse function&amp;#34;) } expr := prefix() for precedence &amp;lt; p.</description>
+      <guid>https://example.com/article/20210719/</guid>
+      <description>&lt;h3 id=&#34;简介&#34;&gt;简介&lt;/h3&gt;
+&lt;p&gt;1973 年，波士顿 Vaughan Pratt 在编程原则座谈会（Principles of Programming Languages Symposium）第一期年刊上发表自顶向下运算符优先（Top Down Operator Precedence）一文。在论文中 Pratt 描述了一种结合递归向下（Recursive Descent）方法以及运算符优先的解析技术。&lt;/p&gt;
+&lt;p&gt;它非常易用，同时看起来很像递归下降，但是却可用更少的代码实现以及高效的性能，技术易懂，方便实现，性能突出，动态灵活，支持语言级别的扩展。&lt;/p&gt;
+&lt;h3 id=&#34;算法&#34;&gt;算法&lt;/h3&gt;
+&lt;p&gt;在经过前个步骤的词法分析后，通常把源代码解析成词法（Token）列表。解析这个列表，分析成对应的抽象语法树（AST），或者其他数据结构。&lt;/p&gt;
+&lt;p&gt;构建词法符号的优先级
+构建当前词法和下一个词法的获取方法
+添加前缀、中缀的方法实现的词典
+主体算法
+各个表达式的对应处理方法
+表达式分为操作数（Operand）和操作符（Operator）两部分，最开始进行分析前缀操作，并且传入最低级别符号（LOWEST）进去。&lt;strong&gt;首先获取前缀方法，并执行。接下来如果下一个词法的符号优先级大于当前，则一直循环处理。替换前缀为当前表达式，前缀只会处理一次，后面循环处理中缀。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;算法核心在于次序、嵌套循环、各自对应方法进行分析处理，最终每个注册的前缀和中缀方法返回各自的表达式。也可进行后缀表达式的处理。&lt;/p&gt;
+&lt;p&gt;注册的字典类型如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;前缀: Map{Int, Func() -&amp;gt; Expr} 中缀: Map{Int, Func(Expr) -&amp;gt; Expr}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;前缀首先开始处理，如果下一个词法优先级大于前缀，则接入前缀表达式进行后面的处理，所以中缀方法需要接受一个表达式参数。&lt;/p&gt;
+&lt;h3 id=&#34;实现&#34;&gt;实现&lt;/h3&gt;
+&lt;p&gt;使用 Go 语言进行简单的代码实现，可以解析加减乘除和括号的优先级。 构建三个表达式，中缀，前缀，和数字字面量：&lt;/p&gt;
+&lt;p&gt;解析器结构，和两个前缀中缀处理字典的定义，主方法&lt;/p&gt;
+&lt;p&gt;其中 LOWEST 最低优先级设为 0，加减法为 1，乘除法为 2，括号为 3。主体方法如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;setPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;precedence&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;expr&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;prefix&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;prefixFn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;prefix&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nb&#34;&gt;panic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;no prefix parse function&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;expr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;prefix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;precedence&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;getCurPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;infix&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;infixFn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cur&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;expr&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;infix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;expr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;expr&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;依次处理前缀，循环处理中缀。&lt;/p&gt;
+&lt;h3 id=&#34;四则运算的字节码实现&#34;&gt;四则运算的字节码实现&lt;/h3&gt;
+&lt;p&gt;尝试使用 pratt 直接生成字节码（Bytecode），其更改的思路如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前缀不必返回表达式，中缀不必接受表达式&lt;/li&gt;
+&lt;li&gt;处理方法不必返回表达式，解析字节码生成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;数字，加减乘除，括号对应方法处理：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;unary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;op&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;goPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;unary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;UNARY&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;op&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;op&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;pr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;getPrePrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;goPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;BIN&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;op&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;group&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;goPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cur&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Rp&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nb&#34;&gt;panic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;lost right paren symbol&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;GET&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Rp&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;goPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+		&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Rp&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+			&lt;span class=&#34;k&#34;&gt;break&lt;/span&gt;
+		&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Com&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+			&lt;span class=&#34;nb&#34;&gt;panic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;lost comma symbol in arguments&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+		&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;CALL&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;举例：2 + 3 * 4&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;前缀开始，处理字面量 2 数字&lt;/li&gt;
+&lt;li&gt;处理中缀，下一个 + 号优先级大于最低级（默认最低），循环开始，解析到加号的方法为二则运算&lt;/li&gt;
+&lt;li&gt;刷新词法（当前是 + 号，未来是字面量 3 数字），调用中缀方法&lt;/li&gt;
+&lt;li&gt;二则运算，处理当前操作符，刷新词法（3, *），递归再次解析（前缀为字面量 3 数字），优先级为上个操作数&lt;/li&gt;
+&lt;li&gt;解析接下来比操作数级别更高的操作符&lt;/li&gt;
+&lt;li&gt;操作符 * 号被抓取，乘法比加法更先一步解析&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其中，前缀取负和取非方法。 例如: -3 * 5&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;前缀开始，调用注册的 - 号前缀方法&lt;/li&gt;
+&lt;li&gt;刷新词法（3, *），再次调用解析（为了获取取负的是什么表达式），优先级为前缀操作符&lt;/li&gt;
+&lt;li&gt;递归解析中，前缀 3 为解析，再判断循环有没有比前缀更高的操作符，* 号比 前缀 - 号优先级低&lt;/li&gt;
+&lt;li&gt;获得解析：3, not&lt;/li&gt;
+&lt;li&gt;回到原处，最低级小于 * 号，即开始解析二则方法，刷新词法（* 5）&lt;/li&gt;
+&lt;li&gt;获得解析：5, mul&lt;/li&gt;
+&lt;li&gt;词法结束符 Eof 不存在优先级，即解析完毕&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;括号，跳过左右括号，从最低级解析其中的表达式。 优先级定义如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kd&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;iota&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;assign&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// =
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;or&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// |
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;and&lt;/span&gt;     &lt;span class=&#34;c1&#34;&gt;// &amp;amp;
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;eq&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// == !=
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;compare&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// &amp;gt; &amp;gt;= &amp;lt; &amp;lt;=
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;term&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// + -
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;factor&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// * /
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;unary&lt;/span&gt;   &lt;span class=&#34;c1&#34;&gt;// - !
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// . () []
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;前后缀和优先级定义给词法：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Number&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Ident&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;term&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Sub&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;unary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;term&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Mul&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;factor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;factor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Or&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;or&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;And&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;and&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;EqEq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;eq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;NotEq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;eq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Gr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;compare&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;GrEq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;compare&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Le&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;compare&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;LeEq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;binary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;compare&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Dot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Lp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;group&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Lb&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Assign&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;assign&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;assign&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;assign&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;对于赋值和取下标的实现： 通常，编程语言使用 [] 方括号取下标，使用 = 符号赋值，其规则如下&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;方括号左边是任意表达式，最后调用下标&lt;/li&gt;
+&lt;li&gt;等号左边必须是一个标识符&lt;/li&gt;
+&lt;li&gt;如果是前缀，则是字面量&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;根据规则，更改 get 调用和标识符的实现方法。当主体方法执行完毕后。判断未来的词法是否是等号，如果是则进行赋值操作，写入对应的字节码。&lt;/p&gt;
+&lt;p&gt;方括号则是和括号运算对应的优先级和中缀运算。 根据两个规则实现赋值，如果再出现等号，则直接报错。&lt;/p&gt;
+&lt;p&gt;实现如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;op&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;pre&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cur&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Assign&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;goPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;ASS&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;op&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;op&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;literal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;goPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cur&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Rb&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;nb&#34;&gt;panic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;lost right bracket symbol&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cur&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;kind&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Assign&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+        &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+        &lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;goPrecedence&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lowest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;REP&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;IDX&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+            
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;assign&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nb&#34;&gt;panic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;invalid assign expression&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;结论&#34;&gt;结论&lt;/h3&gt;
+&lt;p&gt;此算法诞生五十年左右，没有被学术界重视，主要研究方向却是自动语法生成工具，ANLTR 或者 YACC 等工具。pratt 是手写表达式分析器（Parser）里最简单，最优雅和性能保证的算法。生成结构化类型和节点对应的字节码生成和其他数据处理，都是非常好的推荐。&lt;/p&gt;
+</description>
     </item>
-    
-    
-    
-    <item>
-      <title>The design of drift programming language</title>
-      <link>https://bingxio.fun/article/20210524/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bingxio.fun/article/20210524/</guid>
-      <description>Official homepage: https://drift-lang.fun/
-This article mainly describes some details of the redesign of the drift scripting language, about the design of the compiler, the development model, the syntax design and how to implement them.
-I want to be a simple programming language. Fixed and displayed data types are helpful for coding. Types, keywords, and grammar do not have to be too many. For team development, each member&amp;rsquo;s code can have a fixed format.</description>
-    </item>
-    
-    
     
     
   </channel>
