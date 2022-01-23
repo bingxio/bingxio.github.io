@@ -3,29 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bingxio.fun/about/</loc>
-    <lastmod>2022-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bingxio.fun/</loc>
-    <lastmod>2021-10-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bingxio.fun/posts/</loc>
-    <lastmod>2021-10-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bingxio.fun/article/20220121/</loc>
+    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bingxio.fun/article/20220117/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bingxio.fun/about/</loc>
+    <lastmod>2022-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bingxio.fun/article/20211023/</loc>
     <lastmod>2021-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bingxio.fun/article/20211003/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
